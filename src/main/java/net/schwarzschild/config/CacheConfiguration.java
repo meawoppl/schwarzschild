@@ -44,6 +44,7 @@ public class CacheConfiguration {
             cm.createCache(net.schwarzschild.domain.User.class.getName() + ".authorities", jcacheConfiguration);
             cm.createCache(net.schwarzschild.domain.SocialUserConnection.class.getName(), jcacheConfiguration);
             cm.createCache(net.schwarzschild.domain.Stone.class.getName(), jcacheConfiguration);
+            cm.createCache(net.schwarzschild.domain.Edge.class.getName(), jcacheConfiguration);
             // jhipster-needle-ehcache-add-entry
         };
     }
