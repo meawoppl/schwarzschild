@@ -1,0 +1,24 @@
+
+{
+    "schwarzschildApp": {
+        "linkage" : {
+            "home": {
+                "title": "Linkages",
+                "createLabel": "Create a new Linkage",
+                "createOrEditLabel": "Create or edit a Linkage"
+            },
+            "created": "A new Linkage is created with identifier {{ param }}",
+            "updated": "A Linkage is updated with identifier {{ param }}",
+            "deleted": "A Linkage is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Are you sure you want to delete Linkage {{ id }}?"
+            },
+            "detail": {
+                "title": "Linkage"
+            },
+            "creationTime": "Creation Time",
+            "dependee": "Dependee",
+            "dependant": "Dependant"
+        }
+    }
+}

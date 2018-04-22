@@ -1,0 +1,35 @@
+{
+    "fluentMethods": true,
+    "relationships": [
+        {
+            "relationshipName": "dependee",
+            "otherEntityName": "stone",
+            "relationshipType": "one-to-one",
+            "relationshipValidateRules": [],
+            "otherEntityField": "shortName",
+            "ownerSide": true,
+            "otherEntityRelationshipName": "linkage"
+        },
+        {
+            "relationshipName": "dependant",
+            "otherEntityName": "stone",
+            "relationshipType": "one-to-one",
+            "relationshipValidateRules": [],
+            "otherEntityField": "shortName",
+            "ownerSide": true,
+            "otherEntityRelationshipName": "linkage"
+        }
+    ],
+    "fields": [
+        {
+            "fieldName": "creationTime",
+            "fieldType": "Instant"
+        }
+    ],
+    "changelogDate": "20180422213354",
+    "dto": "no",
+    "service": "no",
+    "entityTableName": "linkage",
+    "jpaMetamodelFiltering": false,
+    "pagination": "no"
+}
