@@ -1,101 +1,143 @@
-# Byte-compiled / optimized / DLL files
-__pycache__/
-*.py[cod]
-*$py.class
+######################
+# Project Specific
+######################
+/build/www/**
+/src/test/javascript/coverage/
+/src/test/javascript/PhantomJS*/
 
-# C extensions
-*.so
+######################
+# Node
+######################
+/node/
+node_tmp/
+node_modules/
+npm-debug.log.*
+/.awcache/*
 
-# Distribution / packaging
-.Python
-env/
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
+######################
+# SASS
+######################
+.sass-cache/
 
-# PyInstaller
-#  Usually these files are written by a python script from a template
-#  before PyInstaller builds the exe, so as to inject date/other infos into it.
-*.manifest
-*.spec
+######################
+# Eclipse
+######################
+*.pydevproject
+.project
+.metadata
+tmp/
+tmp/**/*
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.classpath
+.settings/
+.loadpath
+.factorypath
+/src/main/resources/rebel.xml
 
-# Installer logs
-pip-log.txt
-pip-delete-this-directory.txt
+# External tool builders
+.externalToolBuilders/**
 
-# Unit test / coverage reports
-htmlcov/
-.tox/
-.coverage
-.coverage.*
-.cache
-nosetests.xml
-coverage.xml
-*.cover
-.hypothesis/
+# Locally stored "Eclipse launch configurations"
+*.launch
 
-# Translations
-*.mo
-*.pot
+# CDT-specific
+.cproject
 
-# Django stuff:
-*.log
-local_settings.py
+# PDT-specific
+.buildpath
 
-# Flask stuff:
-instance/
-.webassets-cache
+######################
+# Intellij
+######################
+.idea/
+*.iml
+*.iws
+*.ipr
+*.ids
+*.orig
+classes/
 
-# Scrapy stuff:
-.scrapy
+######################
+# Visual Studio Code
+######################
+.vscode/
 
-# Sphinx documentation
-docs/_build/
+######################
+# Maven
+######################
+/log/
+/target/
 
-# PyBuilder
-target/
+######################
+# Gradle
+######################
+.gradle/
+/build/
 
-# Jupyter Notebook
-.ipynb_checkpoints
+######################
+# Package Files
+######################
+*.jar
+*.war
+*.ear
+*.db
 
-# pyenv
-.python-version
+######################
+# Windows
+######################
+# Windows image file caches
+Thumbs.db
 
-# celery beat schedule file
-celerybeat-schedule
+# Folder config file
+Desktop.ini
 
-# SageMath parsed files
-*.sage.py
+######################
+# Mac OSX
+######################
+.DS_Store
+.svn
 
-# dotenv
-.env
+# Thumbnails
+._*
 
-# virtualenv
-.venv
-venv/
-ENV/
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
 
-# Spyder project settings
-.spyderproject
-.spyproject
+######################
+# Directories
+######################
+/bin/
+/deploy/
 
-# Rope project settings
-.ropeproject
+######################
+# Logs
+######################
+*.log*
 
-# mkdocs documentation
-/site
+######################
+# Others
+######################
+*.class
+*.*~
+*~
+.merge_file*
 
-# mypy
-.mypy_cache/
+######################
+# Gradle Wrapper
+######################
+!gradle/wrapper/gradle-wrapper.jar
+
+######################
+# Maven Wrapper
+######################
+!.mvn/wrapper/maven-wrapper.jar
+
+######################
+# ESLint
+######################
+.eslintcache
