@@ -1,20 +1,19 @@
 {
   "generator-jhipster": {
     "promptValues": {
-      "packageName": "net.mattyg",
-      "nativeLanguage": "en"
+      "packageName": "net.schwarzschild"
     },
     "jhipsterVersion": "4.14.3",
     "baseName": "schwarzschild",
-    "packageName": "net.mattyg",
-    "packageFolder": "net/mattyg",
+    "packageName": "net.schwarzschild",
+    "packageFolder": "net/schwarzschild",
     "serverPort": "8080",
     "authenticationType": "jwt",
     "cacheProvider": "ehcache",
     "enableHibernateCache": true,
     "websocket": "spring-websocket",
     "databaseType": "sql",
-    "devDatabaseType": "h2Memory",
+    "devDatabaseType": "h2Disk",
     "prodDatabaseType": "mysql",
     "searchEngine": false,
     "messageBroker": false,
@@ -22,17 +21,13 @@
     "buildTool": "gradle",
     "enableSocialSignIn": true,
     "enableSwaggerCodegen": false,
-    "jwtSecretKey": "975537435b0bf9b9e47df871acd66e6c238865d9",
+    "jwtSecretKey": "7cf992f76450bf212eb9caf2eb456dac79f61fa7",
     "clientFramework": "angularX",
-    "useSass": false,
+    "useSass": true,
     "clientPackageManager": "yarn",
     "applicationType": "monolith",
     "testFrameworks": [],
     "jhiPrefix": "jhi",
-    "enableTranslation": true,
-    "nativeLanguage": "en",
-    "languages": [
-      "en"
-    ]
+    "enableTranslation": false
   }
 }
