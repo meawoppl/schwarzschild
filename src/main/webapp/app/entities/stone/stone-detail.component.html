@@ -1,0 +1,38 @@
+
+<div *ngIf="stone">
+    <h2><span jhiTranslate="schwarzschildApp.stone.detail.title">Stone</span> {{stone.id}}</h2>
+    <hr>
+    <jhi-alert-error></jhi-alert-error>
+    <dl class="row-md jh-entity-details">
+        <dt><span jhiTranslate="schwarzschildApp.stone.creationTime">Creation Time</span></dt>
+        <dd>
+            <span>{{stone.creationTime | date:'medium'}}</span>
+        </dd>
+        <dt><span jhiTranslate="schwarzschildApp.stone.shortName">Short Name</span></dt>
+        <dd>
+            <span>{{stone.shortName}}</span>
+        </dd>
+        <dt><span jhiTranslate="schwarzschildApp.stone.longName">Long Name</span></dt>
+        <dd>
+            <span>{{stone.longName}}</span>
+        </dd>
+        <dt><span jhiTranslate="schwarzschildApp.stone.completionTime">Completion Time</span></dt>
+        <dd>
+            <span>{{stone.completionTime | date:'medium'}}</span>
+        </dd>
+    </dl>
+
+    <button type="submit"
+            (click)="previousState()"
+            class="btn btn-info">
+        <span class="fa fa-arrow-left"></span>&nbsp;<span jhiTranslate="entity.action.back"> Back</span>
+    </button>
+
+    <button type="button"
+            [routerLink]="['/', { outlets: { popup: 'stone/'+ stone.id + '/edit'} }]"
+            replaceUrl="true"
+            queryParamsHandling="merge"
+            class="btn btn-primary">
+        <span class="fa fa-pencil"></span>&nbsp;<span jhiTranslate="entity.action.edit"> Edit</span>
+    </button>
+</div>

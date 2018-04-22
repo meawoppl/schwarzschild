@@ -43,6 +43,7 @@ public class CacheConfiguration {
             cm.createCache(net.mattyg.domain.Authority.class.getName(), jcacheConfiguration);
             cm.createCache(net.mattyg.domain.User.class.getName() + ".authorities", jcacheConfiguration);
             cm.createCache(net.mattyg.domain.SocialUserConnection.class.getName(), jcacheConfiguration);
+            cm.createCache(net.mattyg.domain.Stone.class.getName(), jcacheConfiguration);
             // jhipster-needle-ehcache-add-entry
         };
     }

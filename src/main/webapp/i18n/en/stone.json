@@ -1,0 +1,25 @@
+
+{
+    "schwarzschildApp": {
+        "stone" : {
+            "home": {
+                "title": "Stones",
+                "createLabel": "Create a new Stone",
+                "createOrEditLabel": "Create or edit a Stone"
+            },
+            "created": "A new Stone is created with identifier {{ param }}",
+            "updated": "A Stone is updated with identifier {{ param }}",
+            "deleted": "A Stone is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Are you sure you want to delete Stone {{ id }}?"
+            },
+            "detail": {
+                "title": "Stone"
+            },
+            "creationTime": "Creation Time",
+            "shortName": "Short Name",
+            "longName": "Long Name",
+            "completionTime": "Completion Time"
+        }
+    }
+}
