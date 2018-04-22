@@ -4,7 +4,7 @@ services:
     - docker
 language: node_js
 node_js:
-    - "6.9.5"
+    - "8.11.1"
 jdk:
     - oraclejdk8
 cache:
@@ -33,7 +33,6 @@ before_install:
     # Install with NPM
     # - npm install -g npm
     # - npm install -g yo bower gulp-cli
-    - . $TRAVIS_BUILD_DIR/app/config.sh
 install:
     - $JHIPSTER_INSTALL/01-install-jhipster-stack.sh
     - $JHIPSTER_INSTALL/02-checkVersion.sh
