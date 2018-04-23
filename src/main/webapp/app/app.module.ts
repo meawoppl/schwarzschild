@@ -17,6 +17,10 @@ import { SchwarzschildAdminModule } from './admin/admin.module';
 import { SchwarzschildAccountModule } from './account/account.module';
 import { SchwarzschildEntityModule } from './entities/entity.module';
 import { PaginationConfig } from './blocks/config/uib-pagination.config';
+
+// MRG ADDED:
+import { SchwarzschildSwirlModule } from './swirl/swirl.module';
+
 // jhipster-needle-angular-add-module-import JHipster will add new module here
 import {
     JhiMainComponent,
@@ -38,6 +42,7 @@ import {
         SchwarzschildAccountModule,
         SchwarzschildEntityModule,
         // jhipster-needle-angular-add-module JHipster will add new module here
+        SchwarzschildSwirlModule,
     ],
     declarations: [
         JhiMainComponent,
